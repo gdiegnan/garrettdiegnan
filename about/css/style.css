@@ -143,6 +143,37 @@ header {
 	margin: .2em 0 0 1.5em;
 }
 
+#temp {
+	display: none;
+}
+
+@media screen and (max-width: 1441px) {
+	.aboutP {
+		font-size: 1.1em;
+	}
+}
+
+@media screen and (max-width: 1361px) {
+	.aboutP {
+		font-size: 1em;
+	}
+	#temp {
+		display: relative;
+	}
+}
+
+@media screen and (max-width: 1307px) {
+   #misc {
+  	margin-left: 1.5em;
+  }
+}
+
+@media screen and (max-width: 1307px) {
+   #misc2 {
+  	margin-left: 1.5em;
+  }
+}
+
 /*
 @media screen and (max-width: 1045px) {
   body {
