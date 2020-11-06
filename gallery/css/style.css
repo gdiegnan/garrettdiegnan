@@ -26,6 +26,22 @@ ul {
 	padding: 0;
 }
 
+#galleryHeader {
+	font-family: 'Coda', cursive; 
+	text-decoration: underline;
+	font-size: 2em;
+	margin-left: 0.5em;
+	padding-top: .5em;
+}
+
+p {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 1.2em;
+	margin-left: 0.75em;
+	padding-bottom: 0.3em;
+	padding-right: 0.75em;
+}
+
 .navSelect {
 	color: white;
 	text-decoration: none;
@@ -120,7 +136,7 @@ section::after, footer::after {
 }
 
 #main {
-	height: 100vh;
+	height: 100%;
 }
 
 #repairPhoto {
@@ -137,6 +153,25 @@ header {
 	padding-bottom: 5em;
 	background-color: black;
 	z-index: -1;
+}
+
+.galleryImg1 {
+	width: 50%;
+	float: left;
+	padding: 0.75em;
+}
+
+.galleryImg2 {
+	width: 50%;
+	float: right;
+	padding: 0.75em;
+}
+
+.explain {
+	padding: 0;
+	margin: 0;
+	font-size: 1em;
+	float: none;
 }
 /*
 @media screen and (max-width: 1045px) {
