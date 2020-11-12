@@ -167,13 +167,22 @@ header {
 	padding: 0.75em;
 }
 
-.explain {
-	padding: 0;
-	margin: 0;
-	font-size: 1em;
-	float: none;
+#gallery2 {
+	position: absolute;
+	color: rgba(0,0,0,0);
+	margin: 0.75% 50.75% 1% 0.75%;
+	padding: 10% 1% 6.25% 1%;
+	line-height: 1.2em;
+	font-size: 1.5vw;
+	text-align: center;
 }
-/*
+
+#gallery2:hover {
+	background-color: rgba(255,255,255,0.75);
+	color: black;
+	transition: color 1.75s ease, background-color 1s ease;
+}
+
 @media screen and (max-width: 1045px) {
   body {
   	font-size: 14px;
